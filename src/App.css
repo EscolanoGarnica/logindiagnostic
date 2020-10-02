@@ -74,6 +74,8 @@ body {
   background-color: rgb(20, 145, 202);
   color: white;
   font-weight: 500;
+  height: 30px;
+  font-size: 14px;
 }
 
 .contactabutton{

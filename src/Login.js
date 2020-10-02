@@ -17,6 +17,7 @@ class Login extends Component {
           <input class="input" type="text" onChange={this.myChangeHandler} />
 
           <button class="iniciarsesion">INICIAR SESIÓN</button>
+          <a href="google.com"> He olvidado mi contraseña</a>
         </div>
 
         <div class="registerContainer">
