@@ -3,10 +3,6 @@ body {
   color: white;
 }
 
-.login{
-  padding-top: 20px;
-}
-
 .loginContainer {
   background-color: rgb(65, 65, 65);
   width: 600px;
@@ -14,14 +10,32 @@ body {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1%;
   left: 0;
   right: 0;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.loginContainer div {
-  width: 200px;
-  height: 90px;
+.registerContainer {
+  background-color: rgb(65, 65, 65);
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  margin-left: 75%;
+  margin-top: 11%;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:10px;
 }
 
 .imageDog {
@@ -56,7 +70,24 @@ body {
 .iniciarsesion{
   border-color: honeydew;
   border-radius: 20px;
+  border-width: 2px;
   background-color: rgb(20, 145, 202);
   color: white;
-  
+  font-weight: 500;
+}
+
+.contactabutton{
+  border-color: rgb(20, 145, 202);
+  border-radius: 20px;
+  border-width: 2px;
+  background-color: white;
+  color: rgb(20, 145, 202);
+  font-weight: 500;
+  height: 30px;
+  font-size: 14px;
+}
+
+.tooltip {
+  width: 120px;
+  font-size: 10px;
 }

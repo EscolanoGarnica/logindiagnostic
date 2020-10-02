@@ -1,41 +1,38 @@
 import React, { Component } from "react";
 import dog from "./img/dog_nocopyright.jpg";
 
+import ReactTooltip from "react-tooltip";
+
 class Login extends Component {
   render() {
     return (
       <div>
         <img class="imageDog" src={dog} alt="dog photo"></img>
 
-        <div class="login">
+        <div class="loginContainer">
+          <p class="letras"> Correo electrónico</p>
+          <input class="input" type="text" onChange={this.myChangeHandler} />
 
-          <div class="loginContainer">
+          <p class="letras">Contraseña</p>
+          <input class="input" type="text" onChange={this.myChangeHandler} />
 
-            <div class="inputsContainer">
-              <p class="letras"> Correo electrónico</p>
-              <input
-                class="input"
-                type="text"
-                onChange={this.myChangeHandler}
-              />
-            </div>
+          <button class="iniciarsesion">INICIAR SESIÓN</button>
+        </div>
 
-            <div class="inputsContainer">
-              <p class="letras">Contraseña</p>
-              <input
-                class="input"
-                type="text"
-                onChange={this.myChangeHandler}
-              />
-            </div>
-            
-            <div>
-            <button class="iniciarsesion">
-                INICIAR SESIÓN
-            </button>
-            </div>
-     
-          </div>
+        <div class="registerContainer">
+          <p>¿Quieres registrarte?</p>
+          <button class="contactabutton" data-tip data-for="registerTip">
+            CONTACTA CON NOSOTROS
+          </button>
+          <ReactTooltip
+            id="registerTip"
+            place="bottom"
+            effect="solid"
+            multiline={true}
+            className="tooltip"
+          >
+            + 34 636 8836 60 contacto@dinbeat.com dinbeat.com
+          </ReactTooltip>
         </div>
       </div>
     );
