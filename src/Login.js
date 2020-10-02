@@ -29,6 +29,12 @@ class Login extends Component {
               />
             </div>
             
+            <div>
+            <button class="iniciarsesion">
+                INICIAR SESIÓN
+            </button>
+            </div>
+     
           </div>
         </div>
       </div>

@@ -52,3 +52,11 @@ body {
 .letras {
   padding-left: 20px;
 }
+
+.iniciarsesion{
+  border-color: honeydew;
+  border-radius: 20px;
+  background-color: rgb(20, 145, 202);
+  color: white;
+  
+}
