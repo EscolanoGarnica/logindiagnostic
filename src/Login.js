@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import dog from "./img/dog_nocopyright.jpg";
+import dinbeat from "./img/PRODIAGNOSTIC_black.png";
 
 import ReactTooltip from "react-tooltip";
 
@@ -8,6 +9,7 @@ class Login extends Component {
     return (
       <div>
         <img class="imageDog" src={dog} alt="dog photo"></img>
+        <img class="dinbeatImage" src={dinbeat} alt="dog photo"></img>
 
         <div class="loginContainer">
           <form>

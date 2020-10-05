@@ -3,6 +3,13 @@ body {
   color: white;
 }
 
+.dinbeatImage{
+  position: absolute;
+  width: 300px;
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
 .loginContainer {
   background-color: rgb(65, 65, 65);
   width: 600px;
