@@ -31,7 +31,7 @@ class Login extends Component {
           </form>
 
           
-          <a href="google.com"> He olvidado mi contraseña</a>
+          <a href="google.com" class="olvidadoContraseña"> He olvidado mi contraseña</a>
           <div class='divIniciarSesion'>
           <button class="iniciarsesion">INICIAR SESIÓN</button>
           </div>
