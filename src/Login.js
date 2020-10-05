@@ -21,7 +21,7 @@ class Login extends Component {
                 onChange={this.myChangeHandler}
               />
             </label>
-            <br/>
+            <br />
             <label>
               Contraseña
               <input
@@ -32,13 +32,13 @@ class Login extends Component {
             </label>
           </form>
 
-          
-          <a href="google.com" class="olvidadoContraseña"> He olvidado mi contraseña</a>
-          <div class='divIniciarSesion'>
-          <button class="iniciarsesion">INICIAR SESIÓN</button>
+          <a href="google.com" class="olvidadoContraseña">
+            {" "}
+            He olvidado mi contraseña
+          </a>
+          <div class="divIniciarSesion">
+            <button class="iniciarsesion">INICIAR SESIÓN</button>
           </div>
-          
-          
         </div>
 
         <div class="registerContainer">
