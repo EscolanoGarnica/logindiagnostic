@@ -10,14 +10,33 @@ class Login extends Component {
         <img class="imageDog" src={dog} alt="dog photo"></img>
 
         <div class="loginContainer">
-          <p class="letras"> Correo electrónico</p>
-          <input class="input" type="text" onChange={this.myChangeHandler} />
+          <form>
+            <label>
+              Correo electrónico
+              <input
+                class="input"
+                type="text"
+                onChange={this.myChangeHandler}
+              />
+            </label>
+            <br/>
+            <label>
+              Contraseña
+              <input
+                class="input"
+                type="password"
+                onChange={this.myChangeHandler}
+              />
+            </label>
+          </form>
 
-          <p class="letras">Contraseña</p>
-          <input class="input" type="text" onChange={this.myChangeHandler} />
-
-          <button class="iniciarsesion">INICIAR SESIÓN</button>
+          
           <a href="google.com"> He olvidado mi contraseña</a>
+          <div class='divIniciarSesion'>
+          <button class="iniciarsesion">INICIAR SESIÓN</button>
+          </div>
+          
+          
         </div>
 
         <div class="registerContainer">

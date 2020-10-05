@@ -60,11 +60,10 @@ body {
   font-size: 20px;
   border-radius: 20px;
   padding-left: 10px;
-  position: absolute;
 }
 
-.letras {
-  padding-left: 20px;
+.divIniciarSesion{
+  padding-top: 17px;
 }
 
 .iniciarsesion{
@@ -75,7 +74,7 @@ body {
   color: white;
   font-weight: 500;
   height: 30px;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .contactabutton{
